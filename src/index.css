@@ -1,0 +1,170 @@
+
+
+  img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+
+  }
+
+  nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100% ;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: 3px solid white;
+    z-index: 1;
+    background: black;
+    font-family: Century Gothic, serif;
+    font-weight: 800;
+
+  }
+  /*text in navigation bar seting*/
+  nav .text{
+    padding: 15px 15px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    left: 90px;
+    top: 15px;
+
+  }
+    /*logo in navigation bar seting*/
+  .logo {
+    background-image: url(navlogo3.png);
+    background-size: cover;
+    width: 100px;
+    height: 90px;
+    position: absolute;
+    top: 5px;
+    left: 120px;
+    
+    
+  }
+  /* alignment text in navigation bar seting*/
+  nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+  }
+    /* font text in navigation bar seting*/
+  nav ul li a{
+    line-height: 80px;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+  }
+    /* effect text in navigation bar seting*/
+  nav ul li a:hover{
+    background: none;
+    border-radius: 6px;
+    color: green;
+    transition: 0.5s;
+
+  }
+  /* hide navigation bar*/
+  nav ul ul{  
+    position: absolute;
+    top: 70px;
+    display: none;
+
+  }
+  /* display bchild menu list below parnt list*/
+  nav ul li:hover > ul{ 
+    display: block;
+    background: black;
+    width: 120px;
+    height: 150px;
+    border-top: 3px solid orange;
+
+  }
+  /* alignment text in navigation bar seting*/
+  nav ul ul li{
+    width: 50px;
+    float: none;
+    display: list-item;
+    position: relative;
+    top: 10px;
+
+    }
+  /* alignment link page text in navigation bar seting*/
+  nav ul ul li a{
+    font-size: 12px;
+    padding: 10px 15px;
+    position: relative;
+    top: 10px;
+    line-height: 40px;
+
+  }
+  /* effect link page text in navigation bar seting*/
+  nav ul ul li a:hover{
+    margin-left: 10px;
+
+  }
+  /*color seting*/
+  #purple{
+    color: green;
+    font-size: 28px;
+  }
+
+
+  .mainWrapper h1{
+    color: green;
+    position: absolute;
+    left: 560px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    
+  }
+  .mainWrapper{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+
+  }
+
+  button{
+  color: whitesmoke;
+  background-color:black;
+  border-radius: 10px;
+  font-weight: 20px;
+  }
+
+  button:hover{
+    color: green;
+  }
+
+  form{
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 15px;
+    width: 600px;
+  
+    position: absolute;
+    left: 350px;
+    top: 120px;
+  }
+
+  .form-group{
+    color: green;
+
+  }
+
+
+

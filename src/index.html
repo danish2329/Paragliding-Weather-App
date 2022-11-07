@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>CRUD App</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+
+   
+
+  </head>
+  <body>
+    <img src="img2.jpeg">
+    <!--Navigarion Bar-->
+    <nav>
+      <div class="text" ><span id="purple">P</span>aragliding Whether App </div>
+      <div class="logo"></div>   
+      <ul>    
+      </div>
+    
+      <li><a href="home.html">BACK</a></li>
+      <li><a href="#" onclick="self.close();">CLOSE</a></li>
+      </ul>
+    </nav>
+    
+    <div class="mainWrapper">
+      
+    <!--Notes Form-->
+      <h1>NOTES!</h1>
+
+      <form>
+        <div class="form-group">
+          <label>File name</label>
+          <input id="fileName" type="text" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label>Content</label>
+          <textarea id="fileContents" class="form-control" rows="5"></textarea>
+
+        </div>
+        <br>
+      <button id="btnCreate" >Create</button>
+      <button id="btnRead" >Read</button>
+      <button id="btnDelete">Delete</button>
+      <button id="btnUpdate" >update</button>
+
+        
+      </form>
+      
+    
+    </div>
+
+    <script src="main.js">
+      
+      
+    </script>
+  </body>
+</html>
+
